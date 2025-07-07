@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 20px;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+}
+
+header, section {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.emoji-options span {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.emoji-options span:hover {
+  transform: scale(1.2);
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+}

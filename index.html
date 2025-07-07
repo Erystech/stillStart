@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StillStart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Good Morning 👋</h1>
+      <p>What’s your focus today?</p>
+      <input type="text" id="focusInput" placeholder="Type your main goal..." />
+    </header>
+
+    <section id="mood">
+      <h2>How are you feeling?</h2>
+      <div class="emoji-options">
+        <span>😴</span>
+        <span>😐</span>
+        <span>🙂</span>
+        <span>😄</span>
+        <span>🔥</span>
+      </div>
+    </section>
+
+    <section id="tasks">
+      <h2>Your Top Tasks</h2>
+      <ul>
+        <li><input type="text" placeholder="Task 1" /></li>
+        <li><input type="text" placeholder="Task 2" /></li>
+        <li><input type="text" placeholder="Task 3" /></li>
+      </ul>
+    </section>
+
+    <section id="quote">
+      <h2>Quote of the Day</h2>
+      <blockquote id="dailyQuote">"Stillness is not inactivity."</blockquote>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
